@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedural City Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #222;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        canvas {
+            display: block;
+            cursor: move;
+        }
+        #ui {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #f1c40f;
+            pointer-events: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        h1 { margin: 0 0 5px 0; font-size: 1.5rem; }
+        p { margin: 0; font-size: 0.9rem; opacity: 0.8; }
+        .stats {
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: #4cd137;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="ui">
+        <h1>SimCity Lite</h1>
+        <p>Drag to Pan • Scroll to Zoom</p>
+        <p>SPACE to Re-Generate City</p>
+        <div class="stats" id="stats">Populating...</div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="City Map.js"></script>    
+</body>
+</html>
+

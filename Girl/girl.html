@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Luna The Space Girl</title> 
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #1a1a2e; /* Deep Space Blue */
+            font-family: 'Arial', sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #ui {
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            pointer-events: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="ui">HOVER to interact • CLICK to make her happy</div>
+    <canvas id="c"></canvas>
+
+    <script src="girl.js"></script>
+
+</body>
+</html>
+
+

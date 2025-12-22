@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Entropy</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        canvas {
+            display: block;
+        }
+        #ui {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #0f0;
+            pointer-events: none;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border: 1px solid #0f0;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">Move mouse to disrupt field. Click to explode.</div>
+    <canvas id="canvas"></canvas>
+
+    <script src="Colour.js"></script>
+</body>
+</html>
+

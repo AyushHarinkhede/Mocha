@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Verlet Cloth</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #050505;
+            color: #aaa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            user-select: none; 
+        }
+        canvas {
+            display: block;
+        }
+        #instructions {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            pointer-events: none;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #00f7ff;
+        }
+        h1 { margin: 0 0 5px 0; font-size: 1.2rem; color: #fff; }
+        p { margin: 2px 0; font-size: 0.9rem; }
+        .highlight { color: #00f7ff; font-weight: bold; }
+        .danger { color: #ff0055; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div id="instructions">
+        <h1>Neon Cloth Physics</h1>
+        <p><span class="highlight">Left Click + Drag</span> to pull the fabric.</p>
+        <p><span class="danger">Right Click (or Shift) + Drag</span> to slice/cut.</p>
+        <p>Scroll to change gravity.</p>
+    </div>
+
+    <canvas id="c"></canvas>
+
+    <script src="Noen Cloth Physics.js"></script>
+</body>
+</html>
+
