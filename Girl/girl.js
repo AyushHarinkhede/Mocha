@@ -26,7 +26,7 @@
             isHappy: false,
             happyTimer: 0,
             hairAngle: 0
-        };
+        }; 
 
         // Stars for background
         const stars = [];
