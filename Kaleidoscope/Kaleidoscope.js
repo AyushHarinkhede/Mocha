@@ -19,7 +19,7 @@
         width = canvas.width = window.innerWidth;
         height = canvas.height = window.innerHeight;
         centerX = width / 2;
-        centerY = height / 2;
+        centerY = height / 2; 
         
         // Clear screen black on resize
         ctx.fillStyle = '#000';
