@@ -1,6 +1,6 @@
     const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d', { alpha: false });
-        const statsEl = document.getElementById('stats');
+        const statsEl = document.getElementById('stats'); 
 
         // --- CONFIGURATION ---
         const TILE_SIZE = 40;
