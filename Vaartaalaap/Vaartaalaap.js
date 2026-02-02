@@ -10,7 +10,7 @@
 // Hmm to ye problem hai... 
 // haa mene to do din se nahaya bhii nahi hai...
 // chii___bhaagg soja.. chup chap or sone se pehle nahale kamine. 
-// okay okay!
+// okay okay! 
 
 
 
