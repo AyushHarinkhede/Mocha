@@ -5,7 +5,7 @@
   <a href="https://github.com/AyushHarinkhede">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F709&background=00000000&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Java+%7C+Python+%7C+C%2B%2B;React+%7C+JS+%7C+HTML+%7C+CSS;Open+Source+Enthusiast" alt="Typing SVG" />
   </a>
-</p> 
+</p>  
 
 ---
 
