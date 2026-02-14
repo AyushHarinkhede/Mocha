@@ -10,7 +10,7 @@
         const ctx = canvas.getContext('2d');
 
         let width, height;
-        let frame = 0;
+        let frame = 0; 
 
         // Mouse State
         const mouse = { x: 0, y: 0 };
