@@ -1,5 +1,5 @@
         /**
-         * LUNA THE SPACE GIRL
+         * LUNA THE SPACE GIRL 
          * A procedural character animation.
          * * Instead of loading an image (PNG/JPG), we "paint" the character
          * every single frame using .arc(), .rect(), and .bezierCurveTo().
